@@ -1,1 +1,1 @@
-let d='sadac   sdadasd sadasd'
+let d = "sadac sdadasd sadasd";

@@ -2,4 +2,4 @@
 . "$(dirname "$0")/_/husky.sh"
 
 echo "Running code formatting checks..."
-# npx lint-staged
+npx lint-staged
