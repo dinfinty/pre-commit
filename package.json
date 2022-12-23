@@ -11,12 +11,17 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "eslint": "^7.32.0",
     "husky": "^8.0.2",
     "lint-staged": "^13.1.0",
-    "prettier": "^2.6.2",
-    "eslint": "^7.32.0"
+    "prettier": "^2.6.2"
   },
   "lint-staged": {
-    "**/*.ts":  [ "yarn prettier --write"]
+    "**/*.ts": [
+      "yarn prettier --write"
+    ]
+  },
+  "devDependencies": {
+    "git-format-staged": "^3.0.0"
   }
 }
