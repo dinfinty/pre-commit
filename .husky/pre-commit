@@ -2,4 +2,4 @@
 . "$(dirname "$0")/_/husky.sh"
 
 echo "Running code formatting checks..."
-#yarn git-format-staged --formatter 'prettier --stdin-filepath "{}"' '**/*.ts'
+yarn git-format-staged --formatter 'prettier --stdin-filepath "{}"' '**/*.ts'
